@@ -1,0 +1,18 @@
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #f2f2f2; }
+    .gold { fill: #e8b64a; }
+    .dim { fill: #a8a8a8; }
+  </style>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#161207"/>
+    <stop offset="100%" stop-color="#050505"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="620" fill="url(#bgGrad)" rx="14"/>
+<rect x="1" y="1" width="898" height="618" fill="none" stroke="#3a2f18" stroke-width="2" rx="14"/>
+<text x="450" y="290" text-anchor="middle" class="sans gold" font-size="22" font-weight="700">GITHUB PROFILE ANALYTICS COACH</text>
+<text x="450" y="325" text-anchor="middle" class="sans dim" font-size="14">Live dashboard will render here after the first "Update GitHub Analytics Dashboard" Actions run.</text>
+<text x="450" y="350" text-anchor="middle" class="sans dim" font-size="12">Trigger it manually from the Actions tab, or wait for the daily schedule.</text>
+</svg>

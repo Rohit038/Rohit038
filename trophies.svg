@@ -1,0 +1,71 @@
+<svg width="820" height="180" viewBox="0 0 820 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="trophyShine" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="45%" stop-color="#ffffff" stop-opacity="0.3"/>
+    <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .cell { opacity:0; transform: scale(0.8); transform-box: fill-box; transform-origin: center; animation: popIn 0.55s cubic-bezier(.2,1.4,.4,1) forwards; }
+    @keyframes popIn { to { opacity:1; transform: scale(1); } }
+    .glowRank { animation: rankGlow 2.2s ease-in-out infinite; }
+    @keyframes rankGlow { 0%,100% { opacity:0.7; } 50% { opacity:1; } }
+    .shineSweep { animation: sweepShine 3.6s ease-in-out infinite; mix-blend-mode: screen; }
+    @keyframes sweepShine { 0% { transform: translateX(-140px); opacity:0; } 20% { opacity:0.8; } 55% { transform: translateX(140px); opacity:0; } 100% { transform: translateX(140px); opacity:0; } }
+  </style>
+</defs>
+
+<rect x="0" y="0" width="820" height="180" rx="16" fill="#0a1424" stroke="#1c3f6e"/>
+<rect x="0" y="0" width="820" height="180" rx="16" fill="none" stroke="#e8b64a" stroke-opacity="0.35"/>
+
+<g id="cells">
+  <!-- cell template repeated -->
+  <g class="cell" style="animation-delay:0.1s" transform="translate(20,20)">
+    <rect width="130" height="140" rx="12" fill="#0d1b2e" stroke="#2f5f9e"/>
+    <rect width="130" height="140" rx="12" fill="url(#trophyShine)" class="shineSweep"/>
+    <text x="65" y="30" text-anchor="middle" class="mono" font-size="10" fill="#7f93b3">Alteryx Core</text>
+    <text x="65" y="80" text-anchor="middle" font-size="34" class="glowRank" fill="#f7d774">🏆</text>
+    <text x="65" y="112" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#e8b64a">S</text>
+    <text x="65" y="128" text-anchor="middle" class="mono" font-size="9" fill="#556479">Certified</text>
+  </g>
+
+  <g class="cell" style="animation-delay:0.25s" transform="translate(165,20)">
+    <rect width="130" height="140" rx="12" fill="#0d1b2e" stroke="#2f5f9e"/>
+    <rect width="130" height="140" rx="12" fill="url(#trophyShine)" class="shineSweep" style="animation-delay:0.3s"/>
+    <text x="65" y="30" text-anchor="middle" class="mono" font-size="10" fill="#7f93b3">Alteryx Adv.</text>
+    <text x="65" y="80" text-anchor="middle" font-size="34" class="glowRank" fill="#f7d774" style="animation-delay:0.2s">🏆</text>
+    <text x="65" y="112" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#e8b64a">S</text>
+    <text x="65" y="128" text-anchor="middle" class="mono" font-size="9" fill="#556479">Certified</text>
+  </g>
+
+  <g class="cell" style="animation-delay:0.4s" transform="translate(310,20)">
+    <rect width="130" height="140" rx="12" fill="#0d1b2e" stroke="#2f5f9e"/>
+    <rect width="130" height="140" rx="12" fill="url(#trophyShine)" class="shineSweep" style="animation-delay:0.6s"/>
+    <text x="65" y="30" text-anchor="middle" class="mono" font-size="10" fill="#7f93b3">Google Data</text>
+    <text x="65" y="80" text-anchor="middle" font-size="34" class="glowRank" fill="#c98b2e" style="animation-delay:0.4s">🥈</text>
+    <text x="65" y="112" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#e8b64a">A</text>
+    <text x="65" y="128" text-anchor="middle" class="mono" font-size="9" fill="#556479">Analytics</text>
+  </g>
+
+  <g class="cell" style="animation-delay:0.55s" transform="translate(455,20)">
+    <rect width="130" height="140" rx="12" fill="#0d1b2e" stroke="#2f5f9e"/>
+    <rect width="130" height="140" rx="12" fill="url(#trophyShine)" class="shineSweep" style="animation-delay:0.9s"/>
+    <text x="65" y="30" text-anchor="middle" class="mono" font-size="10" fill="#7f93b3">SAS Visual</text>
+    <text x="65" y="80" text-anchor="middle" font-size="34" class="glowRank" fill="#c98b2e" style="animation-delay:0.6s">🥈</text>
+    <text x="65" y="112" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#e8b64a">A</text>
+    <text x="65" y="128" text-anchor="middle" class="mono" font-size="9" fill="#556479">Analytics</text>
+  </g>
+
+  <g class="cell" style="animation-delay:0.7s" transform="translate(600,20)">
+    <rect width="130" height="140" rx="12" fill="#0d1b2e" stroke="#2f5f9e"/>
+    <rect width="130" height="140" rx="12" fill="url(#trophyShine)" class="shineSweep" style="animation-delay:1.2s"/>
+    <text x="65" y="30" text-anchor="middle" class="mono" font-size="10" fill="#7f93b3">Oracle Cloud</text>
+    <text x="65" y="80" text-anchor="middle" font-size="34" class="glowRank" fill="#7f93b3" style="animation-delay:0.8s">🥉</text>
+    <text x="65" y="112" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#e8b64a">B+</text>
+    <text x="65" y="128" text-anchor="middle" class="mono" font-size="9" fill="#556479">DB Developer</text>
+  </g>
+</g>
+</svg>
