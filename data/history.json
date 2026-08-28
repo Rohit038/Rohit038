@@ -1,11 +1,6 @@
 {
   "points": [
     {
-      "date": "2026-08-04",
-      "followers": 2,
-      "healthScore": 38
-    },
-    {
       "date": "2026-08-05",
       "followers": 2,
       "healthScore": 38
@@ -117,6 +112,11 @@
     },
     {
       "date": "2026-08-27",
+      "followers": 1,
+      "healthScore": 37
+    },
+    {
+      "date": "2026-08-28",
       "followers": 1,
       "healthScore": 37
     }
